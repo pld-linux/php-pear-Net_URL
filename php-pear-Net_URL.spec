@@ -2,8 +2,8 @@
 %define         _class          Net
 %define         _subclass       URL
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - Easy parsing of Urls
-Summary(pl):	%{_class}_%{_subclass} - Proste parsowanie adresów
+Summary:	%{_pearname} - Easy parsing of Urls
+Summary(pl):	%{_pearname} - Proste parsowanie adresów
 Name:		php-pear-%{_pearname}
 Version:	1.0.4
 Release:	1
