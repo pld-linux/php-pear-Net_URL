@@ -6,11 +6,11 @@
 Summary:	%{_pearname} - Easy parsing of Urls
 Summary(pl):	%{_pearname} - Proste parsowanie adresów
 Name:		php-pear-%{_pearname}
-Version:	1.0.8
+Version:	1.0.10
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	aa6d875ec314bd7ac4a48d831f92720a
+# Source0-md5:	92db5fef86bb64da7c5edae6c63edb21
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
