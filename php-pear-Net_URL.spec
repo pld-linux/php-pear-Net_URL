@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Net
-%define         _subclass       URL
+%define		_class		Net
+%define		_subclass	URL
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Easy parsing of Urls
-Summary(pl):	%{_pearname} - Proste parsowanie adresów
+Summary:	%{_pearname} - easy parsing of URLs
+Summary(pl):	%{_pearname} - proste parsowanie adresów
 Name:		php-pear-%{_pearname}
 Version:	1.0.11
 Release:	1
