@@ -5,8 +5,8 @@
 Summary:	%{_class}_%{_subclass} - Easy parsing of Urls
 Summary(pl):	%{_class}_%{_subclass} - Proste parsowanie adresów
 Name:		php-pear-%{_pearname}
-Version:	1.0.1
-Release:	3
+Version:	1.0.4
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
