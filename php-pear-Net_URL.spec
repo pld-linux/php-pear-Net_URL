@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - easy parsing of URLs
 Summary(pl):	%{_pearname} - proste parsowanie adresów
 Name:		php-pear-%{_pearname}
-Version:	1.0.12
+Version:	1.0.13
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	996650e8b71c2607ef60e32d67438aab
+# Source0-md5:	e8ed2e4be5bb24b819be72aedb04a102
 URL:		http://pear.php.net/package/Net_URL/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
