@@ -1,11 +1,12 @@
 %include	/usr/lib/rpm/macros.php
 %define         _class          Net
 %define         _subclass       URL
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - Easy parsing of Urls
 Summary(pl):	%{_pearname} - Proste parsowanie adresów
 Name:		php-pear-%{_pearname}
-Version:	1.0.6
+Version:	1.0.7
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
@@ -19,8 +20,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Provides easy parsing of URLs and their constituent parts.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Pozwala na proste parsowanie adresów URL oraz ich czê¶ci.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
