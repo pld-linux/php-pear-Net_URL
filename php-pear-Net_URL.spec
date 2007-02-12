@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - easy parsing of URLs
-Summary(pl):	%{_pearname} - proste parsowanie adresów
+Summary(pl.UTF-8):   %{_pearname} - proste parsowanie adresÃ³w
 Name:		php-pear-%{_pearname}
 Version:	1.0.14
 Release:	3
@@ -26,8 +26,8 @@ Provides easy parsing of URLs and their constituent parts.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pozwala na proste parsowanie adresów URL oraz ich czê¶ci.
+%description -l pl.UTF-8
+Pozwala na proste parsowanie adresÃ³w URL oraz ich czÄ™Å›ci.
 
 Ta klasa ma w PEAR status: %{_status}.
 
