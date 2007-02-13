@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - easy parsing of URLs
-Summary(pl.UTF-8):   %{_pearname} - proste parsowanie adresów
+Summary(pl.UTF-8):	%{_pearname} - proste parsowanie adresów
 Name:		php-pear-%{_pearname}
 Version:	1.0.14
 Release:	3
