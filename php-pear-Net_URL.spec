@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Net
 %define		_subclass	URL
 %define		_status		stable
